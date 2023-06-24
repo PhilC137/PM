@@ -14,6 +14,7 @@ public class Main {
         list.add(new Student("b","21.08.1995"));
         list.add(new Student("d","21.08.2000"));
         list.add(new Student("a","21.08.1991"));
+        System.out.println("Auch eine Änderung");
 
 
         StudentSort.sort_3a(list);
