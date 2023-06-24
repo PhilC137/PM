@@ -6,6 +6,9 @@ import java.util.List;
 
 public class Main {
 
+    /**
+     * Kommentar
+     */
     public static void  test(){
 
     }
