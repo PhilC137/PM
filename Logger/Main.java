@@ -12,6 +12,12 @@ public class Main {
     public static void  test(){
 
     }
+
+    /**
+     *
+     * @param args
+     * @throws ParseException
+     */
     public static void main(String[] args) throws ParseException {
         List<Student> list = new ArrayList<>();
         list.add(new Student("b","21.08.1995"));
