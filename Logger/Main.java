@@ -10,7 +10,6 @@ public class Main {
 
     }
     public static void main(String[] args) throws ParseException {
-        System.out.println("Hello");
         List<Student> list = new ArrayList<>();
         list.add(new Student("b","21.08.1995"));
         list.add(new Student("d","21.08.2000"));
