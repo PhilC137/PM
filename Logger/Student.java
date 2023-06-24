@@ -22,4 +22,14 @@ public class Student {
     public Date getBirthday() {
         return birthday;
     }
+
+    static int compareByAge(Student a, Student b){
+       return a.getBirthday().compareTo(b.getBirthday());
+
+    }
+
+    int compareByName(Student other){
+        return name.compareTo(other.getName());
+    }
+
 }
