@@ -20,7 +20,7 @@ public class Main {
      */
     public static void main(String[] args) throws ParseException {
         List<Student> list = new ArrayList<>();
-        list.add(new Student("b","21.08.1995"));
+        list.add(new Student("b","21.08.1999"));
         list.add(new Student("d","21.08.2000"));
         list.add(new Student("a","21.08.1991"));
 
