@@ -10,7 +10,4 @@ public interface GenerischesInterface <T> extends Comparator<T> {
 
      int compare(T a, T b);
 
-     default void hallo(int a, int b) {
-
-     }
 }
