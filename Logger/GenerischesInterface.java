@@ -14,4 +14,8 @@ public interface GenerischesInterface <T> extends Comparator<T> {
       * @return
       */
      int compare(T a, T b);
+
+     default void hallo(int a, int b) {
+
+     }
 }
