@@ -1,5 +1,6 @@
 package Logger;
 
+import java.util.Comparator;
 import java.util.List;
 
 public class StudentSort {
@@ -12,7 +13,7 @@ public class StudentSort {
      * @return die sortierte Liste mit Studierenden
      */
     public static List<Student> sort_1a(List<Student> students) {
-        // TODO
+        students.sort((s1,s2) -> s1.getBirthday().compareTo(s2.getBirthday()));
         return students;
     }
 
@@ -23,7 +24,7 @@ public class StudentSort {
      * @return die sortierte Liste mit Studierenden
      */
     public static List<Student> sort_1b(List<Student> students) {
-        // TODO
+        students.sort((s1, s2 ) -> s1.getName().compareTo(s2.getName()));
         return students;
     }
 
@@ -35,7 +36,6 @@ public class StudentSort {
      * @return die sortierte Liste mit Studierenden
      */
     public static List<Student> sort_2a(List<Student> students) {
-        // TODO
         return students;
     }
 
