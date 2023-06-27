@@ -51,7 +51,7 @@ public class Tests {
     @Test
     public void testRemoveIndex(){
         arrayList.remove(0);
-        Assert.assertFalse(arrayList.size() < 2);
+        Assert.assertTrue(arrayList.size() == 1);
         Assert.assertEquals("Pascal",arrayList.get(0));
     }
 }
