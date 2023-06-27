@@ -16,6 +16,7 @@ public class Tests {
 
     @Before
     public void setUp(){
+        arrayList = new ArrayList<>();
         arrayList.add("Philip");
         arrayList.add("Pascal");
         Assume.assumeTrue(Objects.equals(arrayList.get(0), "Philip"));
