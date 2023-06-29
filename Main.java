@@ -10,6 +10,8 @@ public class Main {
         Person p = new Studi();
         Main.methode(p);
 
+        
+
         List<String> l1 = new ArrayList<>();
         ArrayList<String> l2 = new ArrayList<>();
 
