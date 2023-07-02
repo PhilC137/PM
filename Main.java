@@ -5,7 +5,10 @@ import java.util.Optional;
 import static java.util.Arrays.stream;
 
 public class Main {
-
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         KatzenCafe cafe = new KatzenCafe();
         Box box1 = new Box(5, 5, 5, Material.KARTON);
