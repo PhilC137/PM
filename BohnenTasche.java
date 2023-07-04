@@ -1,2 +1,2 @@
-public interface BohnenTasche <T extends Tasche<Beutel<Bohne>>>{
+public interface BohnenTasche <T,E extends Beutel<Bohne>> extends Tasche<E>{
 }
